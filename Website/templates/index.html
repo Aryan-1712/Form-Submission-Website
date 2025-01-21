@@ -1,0 +1,197 @@
+{% extends 'base.html' %}
+{% block title %}
+Home
+{% endblock title %}
+{% block body %}
+    <!-- Carousel -->
+<div class="container-fluid px-0">
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <!--Image 1-->
+      <img src="https://images.unsplash.com/photo-1522158637959-30385a09e0da?&w=800&h=300&fit=crop" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Annual Fest Management</h5>
+        <p style="background: #00000070;">One of the biggest fest management team all over India.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+        <!--Image 2-->
+      <img src="/static/img/home_image-2.jfif" width="800" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Multiple Clubs</h5>
+        <p>More than 10 clubs are in this college.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+        <!--Image 3-->
+      <img src="/static/img/home_image-3.jfif" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Alumni Lives</h5>
+        <p>See the people who formed these clubs.</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+
+    <!-- Thumbnails -->
+<div class="album py-0 bg-body-tertiary">
+    <div class="container">
+    <h1 class="my-2 text-center">Select what you want to Explore.</h1>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 px-0">
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="/static/img/thumbnail-1.jfif" class="d-block w-100" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">Drama Club.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="/static/img/thumbnail-2.jfif" height="215" class="d-block w-100" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">Last Year's Performance.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/static/img/thumbnail-3.jfif" class="d-block w-100" alt="...">
+              <div class="card-body">
+              <p class="card-text text-center">Founder of Drama Club.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/static/img/thumbnail-4.jfif" class="d-block w-100" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">Hackathon Club.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/static/img/thumbnail-5.jfif" class="d-block w-100" alt="...">
+              <div class="card-body">
+              <p class="card-text text-center">Last Year's Hackathon.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/static/img/thumbnail-6.jfif" class="d-block w-100" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">Founder of Hackathon Club.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/static/img/thumbnail-7.jfif" class="d-block w-100" alt="...">            
+              <div class="card-body">
+              <p class="card-text text-center">Dance Club.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/static/img/thumbnail-8.jfif" class="d-block w-100" alt="...">
+              <div class="card-body">
+              <p class="card-text text-center">Last Year's Performance.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/static/img/thumbnail-9.jfif" class="d-block w-100" alt="...">
+              <div class="card-body">
+              <p class="card-text text-center">Founder of Dance Club.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock body %}

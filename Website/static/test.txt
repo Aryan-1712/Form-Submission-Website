@@ -1,0 +1,1 @@
+This is a Test File. Which is inside the Static File.
